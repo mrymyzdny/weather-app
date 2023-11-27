@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-weight: bold;
+  background-size: cover;
+  background-position: top center;
+  background-image: url(img-1.jpg);
+}
+
+/* wrapper */
+.app-wrap {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* header */
+header {
+  display: flex;
+  padding: 2.5em 2.5rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+header p {
+  margin: 1rem;
+  color: #ffff;
+  font-size: 1.5rem;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+input {
+  width: 100%;
+  margin: 2rem;
+  border: none;
+  outline: none;
+  max-width: 15rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0 2rem 0 2rem;
+  font-family: Geneva;
+  font-size: 1rem;
+  box-shadow: 4px 4px 5px #0000007e;
+}
+
+/* Main Container */
+.weather-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+
+  color: #ffff;
+}
+
+.weather-info div {
+  margin: 1.5rem 1.5rem;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.weather-info i {
+  font-size: 1.5rem;
+}
+
+.weather-info span {
+  margin-left: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
